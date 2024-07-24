@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 229, 229);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.content{
+    margin-top: 230px;
+    margin-left: 160px;
+}
+h1{
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+    color:rgb(13, 13, 235);
+}
+p{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    width: 400px;
+}
+.box{
+    width: 400px;
+    height: 335px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin-left: 50%;
+    margin-top: -240px;
+    border-radius: 5px;
+}
+input{
+    width: 90%;
+    margin: 15px 10px 5px 20px;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+}
+.log-btn{
+    width:90%;
+    margin: 15px 10px 5px 20px;
+    padding: 15px;
+    background-color: rgb(47, 47, 214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-style:oblique;
+
+}
+.text{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 15px;
+    color: rgb(9, 9, 221);
+    cursor: pointer;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.sign-up{
+    width: 90%;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;justify-content: center;
+}
+.signup-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(2, 151, 2);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: italic;
+    cursor: pointer;
+}
+.last-text{
+    margin-left: 85px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

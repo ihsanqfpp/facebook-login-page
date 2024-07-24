@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        .container{
+            display: flex;
+            padding:48px 180px;
+        }
+        .left-section, .right-section{
+            width: 50%;
+        }
+        .right-section{
+            padding-left: 20px;
+        }
+        .left-heading{
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 35px;
+        }
+        .image{
+            margin-top: 15px;
+            overflow: hidden;
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+        }
+        .text{
+            margin: 10px 0;
+            font-weight: normal;
+            font-size: 17px;
+        }
+        #form-section{
+            width: 100%;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        .control{
+            padding: 8px 10px;
+            font-size: 18px;
+            border-radius: 4px;
+            border: 1px solid #bdc7d8;
+            width: 100%;
+        }
+        .half{
+            width: 43%;
+        }
+        .half:nth-child(2){
+            margin-left: 2%;
+        }
+        .select{
+            margin-left: 5px;
+        }
+        .some-text{
+            font-size: 15px;
+            width: 80%;
+        }
+        .btn{
+            font-size: 19px;
+            font-weight: bold;
+            min-width: 194px;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            margin: 10px 0px; 
+            padding: 10px 20px;
+            background-color: rgb(3, 104, 3);
+            border: 0;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="left-heading">
+                <h3>facebook helps you to connect and share with the people 
+                    in your life.
+                </h3>
+                <div class="image">
+                    <img src="fb.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <h1 class="form-heading">
+                create new account
+            </h1>
+            <p class="text">it's free and always will be</p>
+            <form action="" id="form-section">
+                <div class="form-group">
+                    <input type="text" class="control half" 
+                    placeholder="first name">
+                    <input type="text" class="control half"
+                     placeholder="sur name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="control" placeholder="mobile number or email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="control" placeholder="password">
+                </div>
+                    <div class="form-group">
+                    <input type="password" class="control" placeholder="confirm password">
+                </div>
+                <div class="form-group">
+                Date of Birth<input type="date" class="select">
+                </div>
+                <div class="form-group">
+                    Gender <input type="radio" value="male" name="male">Male
+                    <input type="radio"  value="female" name="male">FeMale
+                    <input type="radio" value="other" name="male">other
+                </div>
+                    <p class="some-text">by clicking sign up,you agree yo our terms,
+                        data policy and cookie policy.you may recieve notifications 
+                        from us and can opt out at any time.
+                    </p>
+                    <button class="btn">sign up</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
